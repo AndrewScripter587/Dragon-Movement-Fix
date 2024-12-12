@@ -6,6 +6,6 @@ execute as @e[type=ender_dragon] run scoreboard players operation @s YDiff = @s 
 execute as @e[type=ender_dragon] run scoreboard players operation @s YDiff -= @s PrevY
 execute as @e[type=ender_dragon] if score @s YDiff matches 1500.. run scoreboard players set @s YDiff 1500
 execute as @e[type=ender_dragon] if score @s YDiff matches ..-1500 run scoreboard players set @s YDiff -1500
-execute as @e[type=ender_dragon] run scoreboard players operation @s YDiff *= 9 Temp
+execute as @e[type=ender_dragon] run scoreboard players operation @s YDiff *= Speed Temp
 execute as @e[type=ender_dragon] store result entity @s Pos[1] double 0.001 run scoreboard players operation @s YPos += @s YDiff
 execute as @e[type=ender_dragon] at @s store result score @s PrevY run data get entity @s Pos[1] 1000
