@@ -7,7 +7,7 @@ More basic version of my Old Dragon Mechanics datapack that, though having only 
 ## Customizability
 Non-existent.
 
-To change the vertical fly speed of the Ender Dragon, you'll need to modify /data/olddragons/functions/ai.mcfunction (or /data/olddragons/function/ai.mcfunction for 1.21+) directly to change it.
+To change the vertical fly speed of the Ender Dragon, you'll need to modify /data/dragonfix/functions/ai.mcfunction (or /data/dragonfix/function/ai.mcfunction for 1.21+) directly to change it.
 
 I may add configuration in the future (albeit small because this pack has less features, likely only having "Fly Speed" and "Enabled?" as config options), but for now, there's no config.
 ## Features
